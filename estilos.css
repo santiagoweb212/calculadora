@@ -1,0 +1,79 @@
+.container{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: grid;
+    background-color: #ff2f;
+    grid-template-areas: "texto texto texto texto"
+                         "siete ocho nueve division"
+                         "cuatro cinco seis multiplicacion"
+                         "uno dos tres resta"
+                         "igual reset cero suma";
+    justify-items: center;
+    align-items: center;
+}
+#lcd{
+    grid-area: texto;
+    background-color: azure;
+    height: 50px;
+    width: 300px;
+    font-size: 35px;
+}
+ .numero7{
+     grid-area: siete;
+ }
+ .numero8{
+     grid-area: ocho;
+ }
+ .numero9{
+     grid-area: nueve;
+ }
+ .operadorDivision{
+     grid-area: division;
+ }
+ .numero4{
+     grid-area: cuatro;
+ }
+ .numero5{
+    grid-area: cinco;
+}
+.numero6{
+    grid-area: seis;
+}
+.operadorMultiplicacion{
+    grid-area: multiplicacion;
+}
+.numero1{
+    grid-area: uno;
+}
+.numero2{
+    grid-area: dos;
+}
+.numero3{
+    grid-area: tres;
+}
+.operadorResta{
+    grid-area: resta;
+}
+.operadorIgual{
+    grid-area: igual;
+}
+.operadorReset{
+    grid-area: reset;
+}
+.numero0{
+    grid-area: cero;
+}
+.operadorSuma{
+    grid-area: suma;
+}
+/*css div*/
+button{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 0px; 
+    
+}
+
+
